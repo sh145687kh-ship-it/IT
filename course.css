@@ -138,9 +138,6 @@ table tr td img{
     border-radius: 20px;
     box-shadow: 4px 1px black;
 }
-.addcourse .form form input{
-    margin-bottom: 20px;
-}
 .addcourse .form form input:hover{
     background-color: rgb(65, 61, 61);
     color: #fff;
@@ -310,6 +307,52 @@ table tr td{
     }
     textarea{
         width: 100%;
+    }
+    .addcourse .form{
+        margin-left:5% ;
+        margin-right:5% ;
+        text-align: start;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .addcourse .note form{
+        margin-left:5% ;
+        margin-right:5% ;
+        text-align: start;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .addcourse .form form input{
+        width:30%;
+    }
+    .note form{
+        width: 70%;
+    }
+    .form form input,
+    .form form label{
+        display: block;
+    }
+    .form form input{
+        width:80%;
+    }
+    .contact{
+        padding-left: 20px;
+    }
+    .contact form input,
+    .contact form label{
+        display: block;
+    }
+    footer.tel img{
+        width: 10px;
+        height: 10px;
+    }
+    footer.whats img{
+        width: 10px;
+        height: 10px;
+    }
+    footer.face img{
+        width: 10px;
+        height: 10px;
     }
 }
 @media (min-width:350px) {
